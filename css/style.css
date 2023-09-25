@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body covers at least the viewport height */
+  }
+  
+  .header-text {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    padding: 20px;
+    font-size: 30px; /* Set the font size as needed */
+    font-family: 'Space Theme', sans-serif;
+  }
+  
+.logo {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+}
+  
+  .nav-menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Space Theme', sans-serif;
+    font-size: 30px; 
+  }
+
+  .nav-menu2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Space Theme', sans-serif;
+  }
+  
+  .content {
+    flex: 1; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc; 
+  }
+
+  .contentreleases {
+
+    background-color: #fff;
+    border: 1px solid #ccc; 
+  }
+  
+  h2 {
+    text-align: center; /* Center the "Login" heading */
+  }
+  
+  form {
+    text-align: center; /* Center the login form elements */
+  }
+  
+  /* Additional CSS for labels and inputs */
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+  }
+  
+  /* Link styles */
+  .content a {
+    color: red; /* Change link color */
+    text-decoration: none; /* Remove underlines */
+    border-bottom: 2px solid red; /* Add a subtle bottom border on hover */
+  }
+  
+  .content a:hover {
+    border-bottom: 2px solid red; 
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .scrolling-images {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+    margin: 20px 0; /* Add spacing */
+  }
+
+  .image-frame {
+    display: inline-block;
+    margin-right: 7px; /* Add spacing between images */
+    border: 3px solid #ccc; /* Add a border to the image frames */
+    padding: 5px; /* Add padding inside image frames */
+    background-color: #f0f0f0; /* Background color for image frames */
+  }
+
+  /* Style for images inside frames */
+  .image-frame img {
+    max-width: 350px; /* Adjust the maximum width of images */
+    max-height: 350px; /* Adjust the maximum height of images */
+    display: block;
+    margin: 0 auto; /* Center images horizontally inside frames */
+  }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.video-row {
+  display: flex;
+  white-space: nowrap;
+}
+
+.video-row iframe {
+  margin-right: 20px; /* Add spacing between videos */
+  border: 1px solid #ccc;
+}
+
+.glitches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.glitch-video {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust width as needed */
+  margin-bottom: 20px;
+}
+
+.glitch-video iframe {
+  width: 100%;
+  height: auto;
+}
+
+.video-info {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.video-info h4 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.cheats {
+  margin-top: 20px;
+}
+
+.cheat-game {
+  margin-bottom: 20px;
+}
+
+.game-button {
+  background-color: grey;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.cheat-list {
+  display: none;
+}
+
+.cheat-list.show {
+  display: block;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
